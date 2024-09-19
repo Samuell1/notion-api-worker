@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "dev": "wrangler dev",
+    "dev": "wrangler dev src/index.ts",
     "preview": "wrangler preview",
     "deploy": "wrangler deploy src/index.ts"
   },
